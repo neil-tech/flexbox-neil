@@ -1,0 +1,150 @@
+/*GENERAL CSS*/
+body{
+	font-size: 16px;
+	margin: 0px;
+
+}
+#nav{
+	background-color: #C86F9E;
+	margin: 0px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+#nav-list{
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+#nav-list li{
+	/*float: left;*/
+	display: inline-block;
+	margin-right: 10px;
+	transition: background-color 0.3;
+
+}
+#nav-list li:hover{
+	background-color: #fff;
+}
+li, a{
+	Display: Block;
+}
+a{
+	padding: 10px;
+	text-decoration: none;
+	color: black;
+}
+#social-links{
+	display: flex;
+}
+#social-links li{
+	margin-right: 10px;
+}
+#image{
+	background-image: url(11.jpg);
+	background-size: cover;
+	background-position: center center;
+	padding-top: 300px;
+	padding-bottom: 300px;
+}
+
+#image h1{
+	color: blue;
+}
+#image p{
+	color: blue;
+}
+
+#projects{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 20px 40px 0px 40px;
+}
+
+#title{
+	text-align: center;
+}
+.websites{
+	margin-right: 80px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+.damn img{
+	transition: transform 0.6s;
+	border-radius: 50%;
+}
+
+.damn img:hover{
+	transform: scale(1.1);
+}
+#testimonials{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 20px 40px 0px 40px;
+}
+
+#title{
+	text-align: center;
+}
+
+.damn{
+	margin-right: 200px;
+	margin-bottom: 40px;
+	text-align: center;
+	
+}
+
+img{
+	box-shadow: 10px 10px 8px 10px #888888;
+}
+
+#skills{
+	background: #f1f1f1;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 20px 40px 0px 40px;
+}
+
+.doom{
+	color: #3498db;
+	margin-right: 100px;
+	margin-bottom: 40px;
+	text-align: center;
+	width: 25%;
+}
+
+.doom img{
+	width: 100px;
+	height: 50px;
+	border-radius: 50%;
+}
+.doom p{
+	border: 2px solid black;
+	font-size: 15px;
+	line-height: 22px;
+	margin-top: 20px;
+
+}
+
+
+
+@media screen and (max-width: 700px){
+	#nav{
+		flex-direction: column;
+		align-items: center; 
+	}
+
+#nav ul{
+	flex-direction: column; 
+}
+
+#nav #social-links{
+	order: 1;
+}
+}
+
